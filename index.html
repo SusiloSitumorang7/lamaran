@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamaran Kerja</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            overflow: auto;
+            position: relative;
+            margin: 0;
+        }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(-45deg, #000000, #999998, #bfbdbf, #626162);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            z-index: -1;
+        }
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+    <div class="background"></div>
+    <div class="max-w-3xl bg-white p-8 rounded-2xl shadow-xl relative">
+        <h1 class="text-3xl font-bold text-center text-gray-600 mb-4">Surat Lamaran Kerja</h1>
+        <p class="text-gray-700 text-center mb-6">Guru di SMK Swasta Pencawan</p>
+        <div class="border p-4 rounded-lg shadow-sm">
+            <p><strong>Yth. Bapak/Ibu Pimpinan</strong></p>
+            <p> Yayasan Pendidikan Nasional Masty Pencawan</p>
+            <br>
+            <p>Dengan hormat,</p>
+            <p>Dengan Datangnya surat ini, saya bermaksud mengajukan lamaran untuk posisi guru di sekolah SMK pencawan Medan, saya yakin dapat membantu para murid memahami topik pembelajaran secara mudah dan simpel. </p>
+            <br>
+            <p>Berikut adalah informasi singkat dari saya:</p>
+            <p>Nama : Susilo Immanuel Situmorang</p>
+            <p>Tempat/Tanggal Lahir : Delitua, 07 Oktober 2004</p>
+            <p>Alamat : Jln Bunga Turi 5 Sidomulyo</p>
+            <p>No Telepon : 081260875732</p>
+            <br>
+            <p>Bersama dengan surat ini, berikut saya lampirkan beberapa dokumen sebagai bahan pertimbangan:</p>
+            <ul class="list-disc pl-5 mt-2">
+                <li>Curriculum vitae</li>
+                <li>Sertifikat Pelatihan</li>
+                <li>Sertifikat Magang</li>
+                <li>Portofolio</li>
+            </ul>
+            <br>
+            <p>Atas perhatian Bapak/Ibu, saya ucapkan terima kasih.</p>
+            <p class="text-right font-semibold mt-4">Hormat Saya,</p>
+            <p class="text-right font-semibold">Susilo Immanuel Situmorang</p>
+        </div>
+        <div class="text-center mt-6 space-x-2">
+            <a href="pdf/Lamaran.pdf" target="_blank" class="px-2 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform duration-300 ease-in-out hover:from-blue-700 hover:to-blue-900">
+                Curriculum Vitae
+            </a>
+            <a href="pdf/Sangat Mendukung.pdf" target="_blank" class="px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform duration-300 ease-in-out hover:from-green-700 hover:to-green-900">
+                Sertifikat Pelatihan
+            </a>
+            <a href="pdf/Susilo Immanuel Situmorang (5).pdf" target="_blank" class="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform duration-300 ease-in-out hover:from-blue-700 hover:to-blue-900">
+                Sertifikat Magang
+            </a>
+            <a href="https://www.canva.com/design/DAGMtKtZ7xY/otJF6QzLgOR7BUsN2qF_lA/edit?utm_content=DAGMtKtZ7xY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="px-6 py-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform duration-300 ease-in-out hover:from-green-700 hover:to-green-900">
+                Portofolio
+            </a>
+        </div>
+        
+    </div>
+</body>
+</html>
