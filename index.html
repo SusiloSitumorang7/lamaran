@@ -11,6 +11,7 @@
             overflow: auto;
             position: relative;
             margin: 0;
+            min-height: 100vh;
         }
         .background {
             position: fixed;
@@ -32,23 +33,23 @@
 </head>
 <body class="flex items-center justify-center min-h-screen p-4">
     <div class="background"></div>
-    <div class="max-w-3xl bg-white p-8 rounded-2xl shadow-xl relative">
+    <div class="w-full sm:max-w-3xl bg-white p-8 rounded-2xl shadow-xl relative">
         <h1 class="text-3xl font-bold text-center text-gray-600 mb-4">Surat Lamaran Kerja</h1>
         <p class="text-gray-700 text-center mb-6">Guru di SMK Swasta Pencawan</p>
         <div class="border p-4 rounded-lg shadow-sm">
-            <p><strong>Yth. Bapak/Ibu Pimpinan</strong></p>
-            <p> Yayasan Pendidikan Nasional Masty Pencawan</p>
+            <p class="text-justify sm:text-left"><strong>Yth. Bapak/Ibu Pimpinan</strong></p>
+            <p class="text-justify sm:text-left"> Yayasan Pendidikan Nasional Masty Pencawan</p>
             <br>
-            <p>Dengan hormat,</p>
-            <p>Dengan Datangnya surat ini, saya bermaksud mengajukan lamaran untuk posisi guru di sekolah SMK pencawan Medan, saya yakin dapat membantu para murid memahami topik pembelajaran secara mudah dan simpel. </p>
+            <p class="text-justify sm:text-left">Dengan hormat,</p>
+            <p class="text-justify sm:text-left">Dengan Datangnya surat ini, saya bermaksud mengajukan lamaran untuk posisi guru di sekolah SMK pencawan Medan, saya yakin dapat membantu para murid memahami topik pembelajaran secara mudah dan simpel. </p>
             <br>
-            <p>Berikut adalah informasi singkat dari saya:</p>
-            <p>Nama : Susilo Immanuel Situmorang</p>
-            <p>Tempat/Tanggal Lahir : Delitua, 07 Oktober 2004</p>
-            <p>Alamat : Jln Bunga Turi 5 Sidomulyo</p>
-            <p>No Telepon : 081260875732</p>
+            <p class="text-justify sm:text-left">Berikut adalah informasi singkat dari saya:</p>
+            <p class="text-justify sm:text-left">Nama : Susilo Immanuel Situmorang</p>
+            <p class="text-justify sm:text-left">Tempat/Tanggal Lahir : Delitua, 07 Oktober 2004</p>
+            <p class="text-justify sm:text-left">Alamat : Jln Bunga Turi 5 Sidomulyo</p>
+            <p class="text-justify sm:text-left">No Telepon : 081260875732</p>
             <br>
-            <p>Bersama dengan surat ini, berikut saya lampirkan beberapa dokumen sebagai bahan pertimbangan:</p>
+            <p class="text-justify sm:text-left">Bersama dengan surat ini, berikut saya lampirkan beberapa dokumen sebagai bahan pertimbangan:</p>
             <ul class="list-disc pl-5 mt-2">
                 <li>Curriculum vitae</li>
                 <li>Sertifikat Pelatihan</li>
@@ -56,11 +57,11 @@
                 <li>Portofolio</li>
             </ul>
             <br>
-            <p>Atas perhatian Bapak/Ibu, saya ucapkan terima kasih.</p>
+            <p class="text-justify sm:text-left">Atas perhatian Bapak/Ibu, saya ucapkan terima kasih.</p>
             <p class="text-right font-semibold mt-4">Hormat Saya,</p>
             <p class="text-right font-semibold">Susilo Immanuel Situmorang</p>
         </div>
-        <div class="text-center mt-6 space-x-2">
+        <div class="text-center mt-6 flex flex-wrap justify-center gap-2">
             <a href="pdf/Lamaran.pdf" target="_blank" class="px-2 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform duration-300 ease-in-out hover:from-blue-700 hover:to-blue-900">
                 Curriculum Vitae
             </a>
